@@ -1,0 +1,38 @@
+{
+  "name": "note-board",
+  "version": "1.0.0",
+  "description": "A React application let users to create notes in the browser",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d built",
+    "start": "open http://localhost:4000 & httpster -p 4000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThinkTankShark/note-board.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "jquery",
+    "note"
+  ],
+  "author": "Sepand Assadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThinkTankShark/note-board/issues"
+  },
+  "homepage": "https://github.com/ThinkTankShark/note-board#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
